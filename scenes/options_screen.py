@@ -213,12 +213,12 @@ class OptionsScreen:
             return
 
         if event.type == pg.KEYUP:
-            # Press esc, block input fade
-            if event.key == self.game.key_bindings["pause"]:
-                self.is_input_allowed = False
-                self.direction *= -1
-
             if self.state == "Normal":
+                # Press esc, block input fade
+                if event.key == self.game.key_bindings["pause"]:
+                    self.is_input_allowed = False
+                    self.direction *= -1
+
                 # Go up
                 if event.key == self.game.key_bindings["up"]:
                     self.index -= 1
