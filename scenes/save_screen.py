@@ -6,9 +6,6 @@ class SaveScreen:
         # Game
         self.game = game
 
-        # Save background init
-        self.save_bg = pg.Surface((NATIVE_W, NATIVE_H))
-
         # Curtain init
         self.curtain = pg.Surface((NATIVE_W, NATIVE_H))
         self.curtain.fill("black")
@@ -422,9 +419,6 @@ class SaveScreen:
                     self.game.set_scene("MenuScreen")
 
     def draw(self, NATIVE_SURF):
-        # Draw save background
-        NATIVE_SURF.blit(self.save_bg, (0, 0))
-
         # Draw title
         FONT.render_to(NATIVE_SURF, self.title_rect, self.title_text, "white")
 

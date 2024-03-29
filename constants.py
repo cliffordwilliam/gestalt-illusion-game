@@ -2,6 +2,7 @@ import pygame as pg
 from os.path import join
 import pygame.freetype as font
 from json import load
+import random
 
 pg.init()
 
@@ -10,10 +11,16 @@ FONT_PATH = join("assets", "cg_pixel_3x5_mono.ttf")
 MAIN_MENU_PATH = join("assets", "main_menu.png")
 ROOM_PATHS = {
     "bedroom": join("room_json_data", "stage_1", "bedroom.json"),
-    "bedroom_balcony": join("room_json_data", "stage_1", "bedroom_balcony.json")
+    "balcony": join("room_json_data", "stage_1", "balcony.json")
 }
 SPRITE_SHEET_PATHS = {
-    "stage_1_sprite_sheet.png": join("assets", "stage_1_sprite_sheet.png")
+    "stage_1_sprite_sheet.png": join("assets", "stage_1_sprite_sheet.png"),
+    "player_sprite_sheet.png": join("assets", "player_sprite_sheet.png"),
+    "player_sprite_sheet_flipped.png": join("assets", "player_sprite_sheet_flipped.png")
+}
+ACTORS_JSON_DATA_PATHS = {
+    "player_sprite_sheet.json": join("actors_json_data", "player_sprite_sheet.json"),
+    "fire_sprite_sheet.json": join("actors_json_data", "fire_sprite_sheet.json"),
 }
 TILE_S = 16
 FONT_H = 5

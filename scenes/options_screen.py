@@ -7,9 +7,6 @@ class OptionsScreen:
         # Game
         self.game = game
 
-        # Options background init
-        self.options_bg = pg.Surface((NATIVE_W, NATIVE_H))
-
         # Curtain init
         self.curtain = pg.Surface((NATIVE_W, NATIVE_H))
         self.curtain.fill("black")
@@ -162,6 +159,24 @@ class OptionsScreen:
         self.pause_input_value_bg_rect = self.pause_input_value_rect.inflate(
             6, 6)
 
+        # Jump input button
+        self.jump_input_text = "jump_input"
+        self.jump_input_rect = FONT.get_rect(self.jump_input_text)
+        self.jump_input_rect.right = NATIVE_RECT.center[0] - 3
+        self.jump_input_rect.y += FONT_H * 18
+        self.jump_input_bg_rect = self.jump_input_rect.inflate(6, 6)
+        self.button_rects.append(self.jump_input_bg_rect)
+
+        # Jump input value text
+        self.jump_input_value_text = pg.key.name(
+            self.game.key_bindings["jump"])
+        self.jump_input_value_rect = FONT.get_rect(
+            self.jump_input_value_text)
+        self.jump_input_value_rect.left = NATIVE_RECT.center[0] + 3
+        self.jump_input_value_rect.y += FONT_H * 18
+        self.jump_input_value_bg_rect = self.jump_input_value_rect.inflate(
+            6, 6)
+
         # Apply button
         self.apply_text = "apply"
         self.apply_rect = FONT.get_rect(self.apply_text)
@@ -301,6 +316,18 @@ class OptionsScreen:
                         self.pause_input_value_bg_rect = self.pause_input_value_rect.inflate(
                             6, 6)
 
+                    # Jump input button pressed
+                    if self.index == 7:
+                        # PauseInput state
+                        self.state = "JumpInput"
+                        self.jump_input_value_text = "Press any key to rebind"
+                        self.jump_input_value_rect = FONT.get_rect(
+                            self.jump_input_value_text)
+                        self.jump_input_value_rect.left = NATIVE_RECT.center[0] + 3
+                        self.jump_input_value_rect.y += FONT_H * 18
+                        self.jump_input_value_bg_rect = self.jump_input_value_rect.inflate(
+                            6, 6)
+
                     # Apply button pressed
                     elif self.index == self.button_rects_len - 2:
                         # Apply resolution game setting
@@ -427,6 +454,23 @@ class OptionsScreen:
                     self.pause_input_value_text = f"Key is already bound to '{
                         existing_binding}'."
 
+            elif self.state == "JumpInput":
+                # Check if the pressed key is already bound to another action
+                existing_binding = None
+                for action, key in self.game.key_bindings.items():
+                    if event.key == key:
+                        existing_binding = action
+                        break
+
+                # If the pressed key is not already bound, or if it's bound to the same action, update the key binding
+                if not existing_binding or existing_binding == "jump":
+                    self.game.key_bindings["jump"] = event.key
+                    self.jump_input_value_text = pg.key.name(event.key)
+                    self.state = "Normal"
+                else:
+                    self.jump_input_value_text = f"Key is already bound to '{
+                        existing_binding}'."
+
             elif self.state == "Resolution":
                 # Enter press
                 if event.key == self.game.key_bindings["enter"]:
@@ -499,100 +543,107 @@ class OptionsScreen:
                 self.remainder = 0
 
     def draw(self, NATIVE_SURF):
-        # Draw curtain on the native surface
+        # Clear curtain
         self.curtain.fill("black")
 
-        # Draw options background
-        self.curtain.blit(self.options_bg, (0, 0))
-
-        # Draw title
+        # Draw on curtain title
         FONT.render_to(self.curtain, self.title_rect, self.title_text, "white")
 
-        # Draw resolution button
+        # Draw on curtain resolution button
         pg.draw.rect(self.curtain, "black", self.resolution_bg_rect)
         FONT.render_to(self.curtain, self.resolution_rect,
                        self.resolution_text, "white")
 
-        # Draw resolution value
+        # Draw on curtain resolution value
         pg.draw.rect(self.curtain, "black", self.resolution_value_bg_rect)
         FONT.render_to(self.curtain, self.resolution_value_rect,
                        self.resolution_value_text, "white")
 
-        # Draw up input button
+        # Draw on curtain up input button
         pg.draw.rect(self.curtain, "black", self.up_input_bg_rect)
         FONT.render_to(self.curtain, self.up_input_rect,
                        self.up_input_text, "white")
 
-        # Draw up input value
+        # Draw on curtain up input value
         pg.draw.rect(self.curtain, "black", self.up_input_value_bg_rect)
         FONT.render_to(self.curtain, self.up_input_value_rect,
                        self.up_input_value_text, "white")
 
-        # Draw down input button
+        # Draw on curtain down input button
         pg.draw.rect(self.curtain, "black", self.down_input_bg_rect)
         FONT.render_to(self.curtain, self.down_input_rect,
                        self.down_input_text, "white")
 
-        # Draw down input value
+        # Draw on curtain down input value
         pg.draw.rect(self.curtain, "black", self.down_input_value_bg_rect)
         FONT.render_to(self.curtain, self.down_input_value_rect,
                        self.down_input_value_text, "white")
 
-        # Draw right input button
+        # Draw on curtain right input button
         pg.draw.rect(self.curtain, "black", self.right_input_bg_rect)
         FONT.render_to(self.curtain, self.right_input_rect,
                        self.right_input_text, "white")
 
-        # Draw right input value
+        # Draw on curtain right input value
         pg.draw.rect(self.curtain, "black", self.right_input_value_bg_rect)
         FONT.render_to(self.curtain, self.right_input_value_rect,
                        self.right_input_value_text, "white")
 
-        # Draw left input button
+        # Draw on curtain left input button
         pg.draw.rect(self.curtain, "black", self.left_input_bg_rect)
         FONT.render_to(self.curtain, self.left_input_rect,
                        self.left_input_text, "white")
 
-        # Draw left input value
+        # Draw on curtain left input value
         pg.draw.rect(self.curtain, "black", self.left_input_value_bg_rect)
         FONT.render_to(self.curtain, self.left_input_value_rect,
                        self.left_input_value_text, "white")
 
-        # Draw enter input button
+        # Draw on curtain enter input button
         pg.draw.rect(self.curtain, "black", self.enter_input_bg_rect)
         FONT.render_to(self.curtain, self.enter_input_rect,
                        self.enter_input_text, "white")
 
-        # Draw enter input value
+        # Draw on curtain enter input value
         pg.draw.rect(self.curtain, "black", self.enter_input_value_bg_rect)
         FONT.render_to(self.curtain, self.enter_input_value_rect,
                        self.enter_input_value_text, "white")
 
-        # Draw pause input button
+        # Draw on curtain pause input button
         pg.draw.rect(self.curtain, "black", self.pause_input_bg_rect)
         FONT.render_to(self.curtain, self.pause_input_rect,
                        self.pause_input_text, "white")
 
-        # Draw pause input value
+        # Draw on curtain pause input value
         pg.draw.rect(self.curtain, "black", self.pause_input_value_bg_rect)
         FONT.render_to(self.curtain, self.pause_input_value_rect,
                        self.pause_input_value_text, "white")
 
-        # Draw apply button
+        # Draw on curtain jump input button
+        pg.draw.rect(self.curtain, "black", self.jump_input_bg_rect)
+        FONT.render_to(self.curtain, self.jump_input_rect,
+                       self.jump_input_text, "white")
+
+        # Draw on curtain jump input value
+        pg.draw.rect(self.curtain, "black", self.jump_input_value_bg_rect)
+        FONT.render_to(self.curtain, self.jump_input_value_rect,
+                       self.jump_input_value_text, "white")
+
+        # Draw on curtain apply button
         pg.draw.rect(self.curtain, "black", self.apply_bg_rect)
         FONT.render_to(self.curtain, self.apply_rect,
                        self.apply_text, "white")
 
-        # Draw back button
+        # Draw on curtain back button
         pg.draw.rect(self.curtain, "black", self.back_bg_rect)
         FONT.render_to(self.curtain, self.back_rect,
                        self.back_text, "white")
 
-        # Draw middle line
+        # Draw on curtain middle line
         pg.draw.line(self.curtain, "white",
                      (self.resolution_bg_rect.right, self.resolution_bg_rect.y), (self.back_bg_rect.right, self.back_bg_rect.bottom))
 
-        # Draw cursor
+        # Draw on curtain cursor
         if self.is_input_allowed == True:
             if self.state == "Normal":
                 cursor_rect = self.button_rects[self.index]
@@ -602,5 +653,5 @@ class OptionsScreen:
                 pg.draw.rect(self.curtain, "white",
                              self.resolution_value_bg_rect, 1)
 
-        # Draw curtain
+        # Draw curtain on native
         NATIVE_SURF.blit(self.curtain, (0, 0))

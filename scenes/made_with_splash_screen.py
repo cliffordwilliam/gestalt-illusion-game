@@ -91,7 +91,9 @@ class MadeWithSplashScreen:
         FONT.render_to(NATIVE_SURF, self.logo_rect, self.logo_text, "white")
 
         # Draw tips text
-        FONT.render_to(NATIVE_SURF, self.tips_rect, self.tips_text, "white")
+        if self.can_fade_out == True:
+            FONT.render_to(NATIVE_SURF, self.tips_rect,
+                           self.tips_text, "white")
 
         # Draw curtain
         NATIVE_SURF.blit(self.curtain, (0, 0))

@@ -1,10 +1,8 @@
 {
   "BG_LAYERS": [
     [
-      { "name": "Wall", "xds": 0, "yds": 0, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 16, "yds": 0, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 32, "yds": 0, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 48, "yds": 0, "region": [336, 336, 16, 16] },
+      { "name": "VPillar", "xds": 32, "yds": 0, "region": [320, 304, 16, 16] },
+      { "name": "VPillar", "xds": 48, "yds": 0, "region": [336, 304, 16, 16] },
       { "name": "Wall", "xds": 64, "yds": 0, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 80, "yds": 0, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 96, "yds": 0, "region": [336, 336, 16, 16] },
@@ -12,73 +10,64 @@
       { "name": "Wall", "xds": 128, "yds": 0, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 144, "yds": 0, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 160, "yds": 0, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 176, "yds": 0, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 192, "yds": 0, "region": [336, 336, 16, 16] },
       {
         "name": "BrokenWall",
-        "xds": 208,
+        "xds": 336,
         "yds": 0,
         "region": [336, 320, 16, 16]
       },
+      { "name": "VPillar", "xds": 352, "yds": 0, "region": [320, 304, 16, 16] },
+      { "name": "VPillar", "xds": 368, "yds": 0, "region": [336, 304, 16, 16] },
       {
-        "name": "BrokenWall",
-        "xds": 272,
-        "yds": 0,
-        "region": [336, 320, 16, 16]
-      },
-      { "name": "VPillar", "xds": 288, "yds": 0, "region": [320, 304, 16, 16] },
-      { "name": "VPillar", "xds": 304, "yds": 0, "region": [336, 304, 16, 16] },
-      { "name": "VPillar", "xds": 320, "yds": 0, "region": [320, 304, 16, 16] },
-      { "name": "VPillar", "xds": 336, "yds": 0, "region": [336, 304, 16, 16] },
-      { "name": "Pillar", "xds": 352, "yds": 0, "region": [320, 320, 16, 16] },
-      {
-        "name": "BigWindow",
-        "xds": 368,
-        "yds": 0,
-        "region": [400, 464, 16, 16]
-      },
-      {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 384,
         "yds": 0,
-        "region": [416, 464, 16, 16]
+        "region": [448, 464, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 400,
         "yds": 0,
-        "region": [432, 464, 16, 16]
+        "region": [480, 464, 16, 16]
       },
       { "name": "VPillar", "xds": 416, "yds": 0, "region": [320, 304, 16, 16] },
       { "name": "VPillar", "xds": 432, "yds": 0, "region": [336, 304, 16, 16] },
-      { "name": "Wall", "xds": 496, "yds": 0, "region": [336, 336, 16, 16] },
+      {
+        "name": "WallWindow",
+        "xds": 448,
+        "yds": 0,
+        "region": [448, 464, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 464,
+        "yds": 0,
+        "region": [464, 464, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 480,
+        "yds": 0,
+        "region": [464, 464, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 496,
+        "yds": 0,
+        "region": [480, 464, 16, 16]
+      },
       { "name": "VPillar", "xds": 512, "yds": 0, "region": [320, 304, 16, 16] },
       { "name": "VPillar", "xds": 528, "yds": 0, "region": [336, 304, 16, 16] },
       {
-        "name": "BigWindow",
-        "xds": 544,
-        "yds": 0,
-        "region": [400, 464, 16, 16]
-      },
-      {
-        "name": "BigWindow",
+        "name": "BrokenWall",
         "xds": 560,
         "yds": 0,
-        "region": [416, 464, 16, 16]
+        "region": [336, 320, 16, 16]
       },
-      {
-        "name": "BigWindow",
-        "xds": 576,
-        "yds": 0,
-        "region": [432, 464, 16, 16]
-      },
-      { "name": "Pillar", "xds": 592, "yds": 0, "region": [320, 320, 16, 16] },
-      { "name": "Wall", "xds": 608, "yds": 0, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 624, "yds": 0, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 0, "yds": 16, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 16, "yds": 16, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 32, "yds": 16, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 48, "yds": 16, "region": [336, 336, 16, 16] },
+      { "name": "VPillar", "xds": 576, "yds": 0, "region": [320, 304, 16, 16] },
+      { "name": "VPillar", "xds": 592, "yds": 0, "region": [336, 304, 16, 16] },
+      { "name": "VPillar", "xds": 32, "yds": 16, "region": [320, 304, 16, 16] },
+      { "name": "VPillar", "xds": 48, "yds": 16, "region": [336, 304, 16, 16] },
       { "name": "Wall", "xds": 64, "yds": 16, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 80, "yds": 16, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 96, "yds": 16, "region": [336, 336, 16, 16] },
@@ -87,49 +76,36 @@
       { "name": "Wall", "xds": 144, "yds": 16, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 160, "yds": 16, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 176, "yds": 16, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 192, "yds": 16, "region": [336, 336, 16, 16] },
       {
-        "name": "VPillar",
-        "xds": 288,
-        "yds": 16,
-        "region": [320, 304, 16, 16]
-      },
-      {
-        "name": "VPillar",
-        "xds": 304,
-        "yds": 16,
-        "region": [336, 304, 16, 16]
-      },
-      {
-        "name": "VPillar",
+        "name": "BrokenWall",
         "xds": 320,
         "yds": 16,
+        "region": [336, 320, 16, 16]
+      },
+      { "name": "Wall", "xds": 336, "yds": 16, "region": [336, 336, 16, 16] },
+      {
+        "name": "VPillar",
+        "xds": 352,
+        "yds": 16,
         "region": [320, 304, 16, 16]
       },
       {
         "name": "VPillar",
-        "xds": 336,
+        "xds": 368,
         "yds": 16,
         "region": [336, 304, 16, 16]
       },
-      { "name": "Pillar", "xds": 352, "yds": 16, "region": [320, 352, 16, 16] },
       {
-        "name": "BigWindow",
-        "xds": 368,
-        "yds": 16,
-        "region": [400, 496, 16, 16]
-      },
-      {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 384,
         "yds": 16,
-        "region": [416, 496, 16, 16]
+        "region": [448, 496, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 400,
         "yds": 16,
-        "region": [432, 496, 16, 16]
+        "region": [480, 496, 16, 16]
       },
       {
         "name": "VPillar",
@@ -144,17 +120,28 @@
         "region": [336, 304, 16, 16]
       },
       {
-        "name": "BrokenWall",
+        "name": "WallWindow",
         "xds": 448,
         "yds": 16,
-        "region": [336, 320, 16, 16]
+        "region": [448, 496, 16, 16]
       },
-      { "name": "Wall", "xds": 480, "yds": 16, "region": [336, 336, 16, 16] },
       {
-        "name": "BrokenWall",
+        "name": "WallWindow",
+        "xds": 464,
+        "yds": 16,
+        "region": [464, 496, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 480,
+        "yds": 16,
+        "region": [464, 496, 16, 16]
+      },
+      {
+        "name": "WallWindow",
         "xds": 496,
         "yds": 16,
-        "region": [336, 320, 16, 16]
+        "region": [480, 496, 16, 16]
       },
       {
         "name": "VPillar",
@@ -169,30 +156,31 @@
         "region": [336, 304, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 544,
         "yds": 16,
-        "region": [400, 496, 16, 16]
+        "region": [448, 496, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 560,
         "yds": 16,
-        "region": [416, 496, 16, 16]
+        "region": [480, 496, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "VPillar",
         "xds": 576,
         "yds": 16,
-        "region": [432, 496, 16, 16]
+        "region": [320, 304, 16, 16]
       },
-      { "name": "Pillar", "xds": 592, "yds": 16, "region": [320, 352, 16, 16] },
-      { "name": "Wall", "xds": 608, "yds": 16, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 624, "yds": 16, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 0, "yds": 32, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 16, "yds": 32, "region": [336, 336, 16, 16] },
-      { "name": "HPillar", "xds": 32, "yds": 32, "region": [464, 432, 16, 16] },
-      { "name": "HPillar", "xds": 48, "yds": 32, "region": [464, 432, 16, 16] },
+      {
+        "name": "VPillar",
+        "xds": 592,
+        "yds": 16,
+        "region": [336, 304, 16, 16]
+      },
+      { "name": "VPillar", "xds": 32, "yds": 32, "region": [320, 304, 16, 16] },
+      { "name": "VPillar", "xds": 48, "yds": 32, "region": [336, 304, 16, 16] },
       { "name": "HPillar", "xds": 64, "yds": 32, "region": [464, 432, 16, 16] },
       { "name": "HPillar", "xds": 80, "yds": 32, "region": [464, 432, 16, 16] },
       { "name": "HPillar", "xds": 96, "yds": 32, "region": [464, 432, 16, 16] },
@@ -251,52 +239,52 @@
         "region": [464, 432, 16, 16]
       },
       {
-        "name": "HPillar",
+        "name": "VPillar",
         "xds": 256,
         "yds": 32,
-        "region": [464, 432, 16, 16]
+        "region": [320, 304, 16, 16]
       },
       {
-        "name": "HPillar",
+        "name": "VPillar",
         "xds": 272,
         "yds": 32,
-        "region": [464, 432, 16, 16]
+        "region": [336, 304, 16, 16]
       },
       {
-        "name": "VPillar",
+        "name": "HPillar",
         "xds": 288,
         "yds": 32,
-        "region": [320, 304, 16, 16]
+        "region": [464, 432, 16, 16]
       },
       {
-        "name": "VPillar",
+        "name": "HPillar",
         "xds": 304,
         "yds": 32,
-        "region": [336, 304, 16, 16]
+        "region": [464, 432, 16, 16]
+      },
+      {
+        "name": "HPillar",
+        "xds": 320,
+        "yds": 32,
+        "region": [464, 432, 16, 16]
+      },
+      {
+        "name": "HPillar",
+        "xds": 336,
+        "yds": 32,
+        "region": [464, 432, 16, 16]
       },
       {
         "name": "VPillar",
-        "xds": 320,
+        "xds": 352,
         "yds": 32,
         "region": [320, 304, 16, 16]
       },
       {
         "name": "VPillar",
-        "xds": 336,
-        "yds": 32,
-        "region": [336, 304, 16, 16]
-      },
-      {
-        "name": "HPillar",
-        "xds": 352,
-        "yds": 32,
-        "region": [464, 432, 16, 16]
-      },
-      {
-        "name": "HPillar",
         "xds": 368,
         "yds": 32,
-        "region": [464, 432, 16, 16]
+        "region": [336, 304, 16, 16]
       },
       {
         "name": "HPillar",
@@ -371,23 +359,19 @@
         "region": [464, 432, 16, 16]
       },
       {
-        "name": "HPillar",
+        "name": "VPillar",
         "xds": 576,
         "yds": 32,
-        "region": [464, 432, 16, 16]
+        "region": [320, 304, 16, 16]
       },
       {
-        "name": "HPillar",
+        "name": "VPillar",
         "xds": 592,
         "yds": 32,
-        "region": [464, 432, 16, 16]
+        "region": [336, 304, 16, 16]
       },
-      { "name": "Wall", "xds": 608, "yds": 32, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 624, "yds": 32, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 0, "yds": 48, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 16, "yds": 48, "region": [336, 336, 16, 16] },
-      { "name": "HPillar", "xds": 32, "yds": 48, "region": [464, 448, 16, 16] },
-      { "name": "HPillar", "xds": 48, "yds": 48, "region": [464, 448, 16, 16] },
+      { "name": "VPillar", "xds": 32, "yds": 48, "region": [320, 304, 16, 16] },
+      { "name": "VPillar", "xds": 48, "yds": 48, "region": [336, 304, 16, 16] },
       { "name": "HPillar", "xds": 64, "yds": 48, "region": [464, 448, 16, 16] },
       { "name": "HPillar", "xds": 80, "yds": 48, "region": [464, 448, 16, 16] },
       { "name": "HPillar", "xds": 96, "yds": 48, "region": [464, 448, 16, 16] },
@@ -446,52 +430,52 @@
         "region": [464, 448, 16, 16]
       },
       {
-        "name": "HPillar",
+        "name": "VPillar",
         "xds": 256,
         "yds": 48,
-        "region": [464, 448, 16, 16]
+        "region": [320, 304, 16, 16]
       },
       {
-        "name": "HPillar",
+        "name": "VPillar",
         "xds": 272,
         "yds": 48,
-        "region": [464, 448, 16, 16]
+        "region": [336, 304, 16, 16]
       },
       {
-        "name": "VPillar",
+        "name": "HPillar",
         "xds": 288,
         "yds": 48,
-        "region": [320, 304, 16, 16]
+        "region": [464, 448, 16, 16]
       },
       {
-        "name": "VPillar",
+        "name": "HPillar",
         "xds": 304,
         "yds": 48,
-        "region": [336, 304, 16, 16]
+        "region": [464, 448, 16, 16]
+      },
+      {
+        "name": "HPillar",
+        "xds": 320,
+        "yds": 48,
+        "region": [464, 448, 16, 16]
+      },
+      {
+        "name": "HPillar",
+        "xds": 336,
+        "yds": 48,
+        "region": [464, 448, 16, 16]
       },
       {
         "name": "VPillar",
-        "xds": 320,
+        "xds": 352,
         "yds": 48,
         "region": [320, 304, 16, 16]
       },
       {
         "name": "VPillar",
-        "xds": 336,
-        "yds": 48,
-        "region": [336, 304, 16, 16]
-      },
-      {
-        "name": "HPillar",
-        "xds": 352,
-        "yds": 48,
-        "region": [464, 448, 16, 16]
-      },
-      {
-        "name": "HPillar",
         "xds": 368,
         "yds": 48,
-        "region": [464, 448, 16, 16]
+        "region": [336, 304, 16, 16]
       },
       {
         "name": "HPillar",
@@ -566,63 +550,59 @@
         "region": [464, 448, 16, 16]
       },
       {
-        "name": "HPillar",
+        "name": "VPillar",
         "xds": 576,
         "yds": 48,
-        "region": [464, 448, 16, 16]
+        "region": [320, 304, 16, 16]
       },
       {
-        "name": "HPillar",
+        "name": "VPillar",
         "xds": 592,
         "yds": 48,
-        "region": [464, 448, 16, 16]
+        "region": [336, 304, 16, 16]
       },
-      { "name": "Wall", "xds": 608, "yds": 48, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 624, "yds": 48, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 0, "yds": 64, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 16, "yds": 64, "region": [336, 336, 16, 16] },
-      { "name": "Pillar", "xds": 32, "yds": 64, "region": [320, 320, 16, 16] },
-      { "name": "Wall", "xds": 48, "yds": 64, "region": [336, 336, 16, 16] },
+      { "name": "VPillar", "xds": 32, "yds": 64, "region": [320, 304, 16, 16] },
+      { "name": "VPillar", "xds": 48, "yds": 64, "region": [336, 304, 16, 16] },
       { "name": "Wall", "xds": 64, "yds": 64, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 80, "yds": 64, "region": [336, 336, 16, 16] },
-      { "name": "Pillar", "xds": 96, "yds": 64, "region": [320, 320, 16, 16] },
-      { "name": "Wall", "xds": 112, "yds": 64, "region": [336, 336, 16, 16] },
+      { "name": "Wall", "xds": 96, "yds": 64, "region": [336, 336, 16, 16] },
+      { "name": "Pillar", "xds": 112, "yds": 64, "region": [320, 320, 16, 16] },
       { "name": "Wall", "xds": 128, "yds": 64, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 144, "yds": 64, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 160, "yds": 64, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 176, "yds": 64, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 192, "yds": 64, "region": [336, 336, 16, 16] },
-      { "name": "Pillar", "xds": 208, "yds": 64, "region": [320, 320, 16, 16] },
+      { "name": "Pillar", "xds": 192, "yds": 64, "region": [320, 320, 16, 16] },
+      { "name": "Wall", "xds": 208, "yds": 64, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 224, "yds": 64, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 240, "yds": 64, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 256, "yds": 64, "region": [336, 336, 16, 16] },
-      { "name": "Pillar", "xds": 272, "yds": 64, "region": [320, 320, 16, 16] },
       {
         "name": "VPillar",
-        "xds": 288,
+        "xds": 256,
         "yds": 64,
         "region": [320, 304, 16, 16]
       },
       {
         "name": "VPillar",
-        "xds": 304,
+        "xds": 272,
         "yds": 64,
         "region": [336, 304, 16, 16]
       },
+      { "name": "Wall", "xds": 288, "yds": 64, "region": [336, 336, 16, 16] },
+      { "name": "Wall", "xds": 304, "yds": 64, "region": [336, 336, 16, 16] },
+      { "name": "Wall", "xds": 320, "yds": 64, "region": [336, 336, 16, 16] },
+      { "name": "Wall", "xds": 336, "yds": 64, "region": [336, 336, 16, 16] },
       {
         "name": "VPillar",
-        "xds": 320,
+        "xds": 352,
         "yds": 64,
         "region": [320, 304, 16, 16]
       },
       {
         "name": "VPillar",
-        "xds": 336,
+        "xds": 368,
         "yds": 64,
         "region": [336, 304, 16, 16]
       },
-      { "name": "Pillar", "xds": 352, "yds": 64, "region": [320, 320, 16, 16] },
-      { "name": "Wall", "xds": 368, "yds": 64, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 384, "yds": 64, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 400, "yds": 64, "region": [336, 336, 16, 16] },
       {
@@ -655,100 +635,101 @@
       },
       { "name": "Wall", "xds": 544, "yds": 64, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 560, "yds": 64, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 576, "yds": 64, "region": [336, 336, 16, 16] },
-      { "name": "Pillar", "xds": 592, "yds": 64, "region": [320, 320, 16, 16] },
-      { "name": "Wall", "xds": 608, "yds": 64, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 624, "yds": 64, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 0, "yds": 80, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 16, "yds": 80, "region": [336, 336, 16, 16] },
-      { "name": "Pillar", "xds": 32, "yds": 80, "region": [320, 336, 16, 16] },
+      {
+        "name": "VPillar",
+        "xds": 576,
+        "yds": 64,
+        "region": [320, 304, 16, 16]
+      },
+      {
+        "name": "VPillar",
+        "xds": 592,
+        "yds": 64,
+        "region": [336, 304, 16, 16]
+      },
+      { "name": "VPillar", "xds": 32, "yds": 80, "region": [320, 304, 16, 16] },
+      { "name": "VPillar", "xds": 48, "yds": 80, "region": [336, 304, 16, 16] },
       {
         "name": "BigWindow",
-        "xds": 48,
+        "xds": 64,
         "yds": 80,
         "region": [400, 464, 16, 16]
       },
       {
         "name": "BigWindow",
-        "xds": 64,
+        "xds": 80,
         "yds": 80,
         "region": [416, 464, 16, 16]
       },
       {
         "name": "BigWindow",
-        "xds": 80,
+        "xds": 96,
         "yds": 80,
         "region": [432, 464, 16, 16]
       },
-      { "name": "Pillar", "xds": 96, "yds": 80, "region": [320, 336, 16, 16] },
-      { "name": "Wall", "xds": 112, "yds": 80, "region": [336, 336, 16, 16] },
+      { "name": "Pillar", "xds": 112, "yds": 80, "region": [320, 336, 16, 16] },
       { "name": "Wall", "xds": 128, "yds": 80, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 144, "yds": 80, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 160, "yds": 80, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 176, "yds": 80, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 192, "yds": 80, "region": [336, 336, 16, 16] },
-      { "name": "Pillar", "xds": 208, "yds": 80, "region": [320, 336, 16, 16] },
+      { "name": "Pillar", "xds": 192, "yds": 80, "region": [320, 336, 16, 16] },
+      {
+        "name": "BigWindow",
+        "xds": 208,
+        "yds": 80,
+        "region": [400, 464, 16, 16]
+      },
       {
         "name": "BigWindow",
         "xds": 224,
         "yds": 80,
-        "region": [400, 464, 16, 16]
+        "region": [416, 464, 16, 16]
       },
       {
         "name": "BigWindow",
         "xds": 240,
         "yds": 80,
-        "region": [416, 464, 16, 16]
+        "region": [432, 464, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "VPillar",
         "xds": 256,
         "yds": 80,
-        "region": [432, 464, 16, 16]
+        "region": [320, 304, 16, 16]
       },
-      { "name": "Pillar", "xds": 272, "yds": 80, "region": [320, 336, 16, 16] },
       {
         "name": "VPillar",
-        "xds": 288,
+        "xds": 272,
+        "yds": 80,
+        "region": [336, 304, 16, 16]
+      },
+      { "name": "Wall", "xds": 288, "yds": 80, "region": [336, 336, 16, 16] },
+      { "name": "Wall", "xds": 304, "yds": 80, "region": [336, 336, 16, 16] },
+      { "name": "Wall", "xds": 320, "yds": 80, "region": [336, 336, 16, 16] },
+      { "name": "Wall", "xds": 336, "yds": 80, "region": [336, 336, 16, 16] },
+      {
+        "name": "VPillar",
+        "xds": 352,
         "yds": 80,
         "region": [320, 304, 16, 16]
       },
       {
         "name": "VPillar",
-        "xds": 304,
-        "yds": 80,
-        "region": [336, 304, 16, 16]
-      },
-      {
-        "name": "VPillar",
-        "xds": 320,
-        "yds": 80,
-        "region": [320, 304, 16, 16]
-      },
-      {
-        "name": "VPillar",
-        "xds": 336,
-        "yds": 80,
-        "region": [336, 304, 16, 16]
-      },
-      { "name": "Pillar", "xds": 352, "yds": 80, "region": [320, 336, 16, 16] },
-      {
-        "name": "BigWindow",
         "xds": 368,
         "yds": 80,
-        "region": [400, 464, 16, 16]
+        "region": [336, 304, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 384,
         "yds": 80,
-        "region": [416, 464, 16, 16]
+        "region": [448, 464, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 400,
         "yds": 80,
-        "region": [432, 464, 16, 16]
+        "region": [480, 464, 16, 16]
       },
       {
         "name": "VPillar",
@@ -762,10 +743,30 @@
         "yds": 80,
         "region": [336, 304, 16, 16]
       },
-      { "name": "Wall", "xds": 448, "yds": 80, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 464, "yds": 80, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 480, "yds": 80, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 496, "yds": 80, "region": [336, 336, 16, 16] },
+      {
+        "name": "WallWindow",
+        "xds": 448,
+        "yds": 80,
+        "region": [448, 464, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 464,
+        "yds": 80,
+        "region": [464, 464, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 480,
+        "yds": 80,
+        "region": [464, 464, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 496,
+        "yds": 80,
+        "region": [480, 464, 16, 16]
+      },
       {
         "name": "VPillar",
         "xds": 512,
@@ -779,116 +780,114 @@
         "region": [336, 304, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 544,
         "yds": 80,
-        "region": [400, 464, 16, 16]
+        "region": [448, 464, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 560,
         "yds": 80,
-        "region": [416, 464, 16, 16]
+        "region": [480, 464, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "VPillar",
         "xds": 576,
         "yds": 80,
-        "region": [432, 464, 16, 16]
+        "region": [320, 304, 16, 16]
       },
-      { "name": "Pillar", "xds": 592, "yds": 80, "region": [320, 336, 16, 16] },
-      { "name": "Wall", "xds": 608, "yds": 80, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 624, "yds": 80, "region": [336, 336, 16, 16] },
+      {
+        "name": "VPillar",
+        "xds": 592,
+        "yds": 80,
+        "region": [336, 304, 16, 16]
+      },
       { "name": "Wall", "xds": 0, "yds": 96, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 16, "yds": 96, "region": [336, 336, 16, 16] },
-      { "name": "Pillar", "xds": 32, "yds": 96, "region": [320, 336, 16, 16] },
+      { "name": "Pillar", "xds": 16, "yds": 96, "region": [320, 320, 16, 16] },
+      { "name": "VPillar", "xds": 32, "yds": 96, "region": [320, 304, 16, 16] },
+      { "name": "VPillar", "xds": 48, "yds": 96, "region": [336, 304, 16, 16] },
       {
         "name": "BigWindow",
-        "xds": 48,
-        "yds": 96,
-        "region": [400, 480, 16, 16]
-      },
-      {
-        "name": "BigWindowLamp",
         "xds": 64,
         "yds": 96,
+        "region": [400, 480, 16, 16]
+      },
+      {
+        "name": "BigWindowLamp",
+        "xds": 80,
+        "yds": 96,
         "region": [416, 480, 16, 16]
       },
       {
         "name": "BigWindow",
-        "xds": 80,
+        "xds": 96,
         "yds": 96,
         "region": [432, 480, 16, 16]
       },
-      { "name": "Pillar", "xds": 96, "yds": 96, "region": [320, 336, 16, 16] },
-      { "name": "Window", "xds": 112, "yds": 96, "region": [432, 368, 16, 16] },
-      { "name": "Window", "xds": 128, "yds": 96, "region": [448, 368, 16, 16] },
-      { "name": "Wall", "xds": 144, "yds": 96, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 160, "yds": 96, "region": [336, 336, 16, 16] },
-      { "name": "Window", "xds": 176, "yds": 96, "region": [432, 368, 16, 16] },
-      { "name": "Window", "xds": 192, "yds": 96, "region": [448, 368, 16, 16] },
-      { "name": "Pillar", "xds": 208, "yds": 96, "region": [320, 336, 16, 16] },
+      { "name": "Pillar", "xds": 112, "yds": 96, "region": [320, 336, 16, 16] },
+      { "name": "Wall", "xds": 128, "yds": 96, "region": [336, 336, 16, 16] },
+      { "name": "Window", "xds": 144, "yds": 96, "region": [432, 368, 16, 16] },
+      { "name": "Window", "xds": 160, "yds": 96, "region": [448, 368, 16, 16] },
+      { "name": "Wall", "xds": 176, "yds": 96, "region": [336, 336, 16, 16] },
+      { "name": "Pillar", "xds": 192, "yds": 96, "region": [320, 336, 16, 16] },
       {
         "name": "BigWindow",
-        "xds": 224,
+        "xds": 208,
         "yds": 96,
         "region": [400, 480, 16, 16]
       },
       {
         "name": "BigWindowLamp",
-        "xds": 240,
+        "xds": 224,
         "yds": 96,
         "region": [416, 480, 16, 16]
       },
       {
         "name": "BigWindow",
+        "xds": 240,
+        "yds": 96,
+        "region": [432, 480, 16, 16]
+      },
+      {
+        "name": "VPillar",
         "xds": 256,
         "yds": 96,
-        "region": [432, 480, 16, 16]
+        "region": [320, 304, 16, 16]
       },
-      { "name": "Pillar", "xds": 272, "yds": 96, "region": [320, 336, 16, 16] },
       {
         "name": "VPillar",
-        "xds": 288,
+        "xds": 272,
+        "yds": 96,
+        "region": [336, 304, 16, 16]
+      },
+      { "name": "Wall", "xds": 288, "yds": 96, "region": [336, 336, 16, 16] },
+      { "name": "Wall", "xds": 304, "yds": 96, "region": [336, 336, 16, 16] },
+      { "name": "Wall", "xds": 320, "yds": 96, "region": [336, 336, 16, 16] },
+      { "name": "Wall", "xds": 336, "yds": 96, "region": [336, 336, 16, 16] },
+      {
+        "name": "VPillar",
+        "xds": 352,
         "yds": 96,
         "region": [320, 304, 16, 16]
       },
       {
         "name": "VPillar",
-        "xds": 304,
-        "yds": 96,
-        "region": [336, 304, 16, 16]
-      },
-      {
-        "name": "VPillar",
-        "xds": 320,
-        "yds": 96,
-        "region": [320, 304, 16, 16]
-      },
-      {
-        "name": "VPillar",
-        "xds": 336,
-        "yds": 96,
-        "region": [336, 304, 16, 16]
-      },
-      { "name": "Pillar", "xds": 352, "yds": 96, "region": [320, 336, 16, 16] },
-      {
-        "name": "BigWindow",
         "xds": 368,
         "yds": 96,
-        "region": [400, 480, 16, 16]
+        "region": [336, 304, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 384,
         "yds": 96,
-        "region": [416, 496, 16, 16]
+        "region": [448, 480, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 400,
         "yds": 96,
-        "region": [432, 480, 16, 16]
+        "region": [480, 480, 16, 16]
       },
       {
         "name": "VPillar",
@@ -902,10 +901,30 @@
         "yds": 96,
         "region": [336, 304, 16, 16]
       },
-      { "name": "Wall", "xds": 448, "yds": 96, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 464, "yds": 96, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 480, "yds": 96, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 496, "yds": 96, "region": [336, 336, 16, 16] },
+      {
+        "name": "WallWindow",
+        "xds": 448,
+        "yds": 96,
+        "region": [448, 480, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 464,
+        "yds": 96,
+        "region": [464, 496, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 480,
+        "yds": 96,
+        "region": [464, 496, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 496,
+        "yds": 96,
+        "region": [480, 480, 16, 16]
+      },
       {
         "name": "VPillar",
         "xds": 512,
@@ -919,131 +938,144 @@
         "region": [336, 304, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 544,
         "yds": 96,
-        "region": [400, 480, 16, 16]
+        "region": [448, 480, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 560,
         "yds": 96,
-        "region": [416, 496, 16, 16]
+        "region": [480, 480, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "VPillar",
         "xds": 576,
         "yds": 96,
-        "region": [432, 480, 16, 16]
+        "region": [320, 304, 16, 16]
       },
-      { "name": "Pillar", "xds": 592, "yds": 96, "region": [320, 336, 16, 16] },
-      { "name": "Wall", "xds": 608, "yds": 96, "region": [336, 336, 16, 16] },
+      {
+        "name": "VPillar",
+        "xds": 592,
+        "yds": 96,
+        "region": [336, 304, 16, 16]
+      },
+      { "name": "Pillar", "xds": 608, "yds": 96, "region": [320, 320, 16, 16] },
       { "name": "Wall", "xds": 624, "yds": 96, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 0, "yds": 112, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 16, "yds": 112, "region": [336, 336, 16, 16] },
-      { "name": "Pillar", "xds": 32, "yds": 112, "region": [320, 336, 16, 16] },
+      { "name": "Pillar", "xds": 16, "yds": 112, "region": [320, 336, 16, 16] },
       {
-        "name": "BigWindow",
+        "name": "VPillar",
+        "xds": 32,
+        "yds": 112,
+        "region": [320, 304, 16, 16]
+      },
+      {
+        "name": "VPillar",
         "xds": 48,
         "yds": 112,
-        "region": [400, 480, 16, 16]
+        "region": [336, 304, 16, 16]
       },
       {
         "name": "BigWindow",
         "xds": 64,
         "yds": 112,
-        "region": [416, 496, 16, 16]
+        "region": [400, 480, 16, 16]
       },
       {
         "name": "BigWindow",
         "xds": 80,
         "yds": 112,
+        "region": [416, 496, 16, 16]
+      },
+      {
+        "name": "BigWindow",
+        "xds": 96,
+        "yds": 112,
         "region": [432, 480, 16, 16]
-      },
-      { "name": "Pillar", "xds": 96, "yds": 112, "region": [320, 336, 16, 16] },
-      {
-        "name": "Window",
-        "xds": 112,
-        "yds": 112,
-        "region": [432, 384, 16, 16]
-      },
-      {
-        "name": "Window",
-        "xds": 128,
-        "yds": 112,
-        "region": [448, 384, 16, 16]
-      },
-      { "name": "Wall", "xds": 144, "yds": 112, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 160, "yds": 112, "region": [336, 336, 16, 16] },
-      {
-        "name": "Window",
-        "xds": 176,
-        "yds": 112,
-        "region": [432, 384, 16, 16]
-      },
-      {
-        "name": "Window",
-        "xds": 192,
-        "yds": 112,
-        "region": [448, 384, 16, 16]
       },
       {
         "name": "Pillar",
-        "xds": 208,
+        "xds": 112,
+        "yds": 112,
+        "region": [320, 336, 16, 16]
+      },
+      { "name": "Wall", "xds": 128, "yds": 112, "region": [336, 336, 16, 16] },
+      {
+        "name": "Window",
+        "xds": 144,
+        "yds": 112,
+        "region": [432, 384, 16, 16]
+      },
+      {
+        "name": "Window",
+        "xds": 160,
+        "yds": 112,
+        "region": [448, 384, 16, 16]
+      },
+      { "name": "Wall", "xds": 176, "yds": 112, "region": [336, 336, 16, 16] },
+      {
+        "name": "Pillar",
+        "xds": 192,
         "yds": 112,
         "region": [320, 336, 16, 16]
       },
       {
         "name": "BigWindow",
-        "xds": 224,
+        "xds": 208,
         "yds": 112,
         "region": [400, 480, 16, 16]
+      },
+      {
+        "name": "BigWindow",
+        "xds": 224,
+        "yds": 112,
+        "region": [416, 496, 16, 16]
       },
       {
         "name": "BigWindow",
         "xds": 240,
         "yds": 112,
-        "region": [416, 496, 16, 16]
+        "region": [432, 480, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "VPillar",
         "xds": 256,
         "yds": 112,
-        "region": [432, 480, 16, 16]
+        "region": [320, 304, 16, 16]
       },
       {
-        "name": "Pillar",
+        "name": "VPillar",
         "xds": 272,
         "yds": 112,
-        "region": [320, 352, 16, 16]
+        "region": [336, 304, 16, 16]
       },
       { "name": "Wall", "xds": 288, "yds": 112, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 304, "yds": 112, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 320, "yds": 112, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 336, "yds": 112, "region": [336, 336, 16, 16] },
       {
-        "name": "Pillar",
+        "name": "VPillar",
         "xds": 352,
         "yds": 112,
-        "region": [320, 352, 16, 16]
+        "region": [320, 304, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "VPillar",
         "xds": 368,
         "yds": 112,
-        "region": [400, 480, 16, 16]
+        "region": [336, 304, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 384,
         "yds": 112,
-        "region": [416, 496, 16, 16]
+        "region": [448, 480, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 400,
         "yds": 112,
-        "region": [432, 480, 16, 16]
+        "region": [480, 480, 16, 16]
       },
       {
         "name": "VPillar",
@@ -1057,10 +1089,30 @@
         "yds": 112,
         "region": [336, 304, 16, 16]
       },
-      { "name": "Wall", "xds": 448, "yds": 112, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 464, "yds": 112, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 480, "yds": 112, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 496, "yds": 112, "region": [336, 336, 16, 16] },
+      {
+        "name": "WallWindow",
+        "xds": 448,
+        "yds": 112,
+        "region": [448, 480, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 464,
+        "yds": 112,
+        "region": [464, 496, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 480,
+        "yds": 112,
+        "region": [464, 496, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 496,
+        "yds": 112,
+        "region": [480, 480, 16, 16]
+      },
       {
         "name": "VPillar",
         "xds": 512,
@@ -1074,105 +1126,137 @@
         "region": [336, 304, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 544,
         "yds": 112,
-        "region": [400, 480, 16, 16]
+        "region": [448, 480, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 560,
         "yds": 112,
-        "region": [416, 496, 16, 16]
+        "region": [480, 480, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "VPillar",
         "xds": 576,
         "yds": 112,
-        "region": [432, 480, 16, 16]
+        "region": [320, 304, 16, 16]
+      },
+      {
+        "name": "VPillar",
+        "xds": 592,
+        "yds": 112,
+        "region": [336, 304, 16, 16]
       },
       {
         "name": "Pillar",
-        "xds": 592,
+        "xds": 608,
         "yds": 112,
         "region": [320, 336, 16, 16]
       },
-      { "name": "Wall", "xds": 608, "yds": 112, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 624, "yds": 112, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 0, "yds": 128, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 16, "yds": 128, "region": [336, 336, 16, 16] },
-      { "name": "Pillar", "xds": 32, "yds": 128, "region": [320, 352, 16, 16] },
+      { "name": "Pillar", "xds": 16, "yds": 128, "region": [320, 352, 16, 16] },
+      {
+        "name": "VPillar",
+        "xds": 32,
+        "yds": 128,
+        "region": [320, 304, 16, 16]
+      },
+      {
+        "name": "VPillar",
+        "xds": 48,
+        "yds": 128,
+        "region": [336, 304, 16, 16]
+      },
       {
         "name": "BigWindow",
-        "xds": 48,
+        "xds": 64,
         "yds": 128,
         "region": [400, 496, 16, 16]
       },
       {
         "name": "BigWindow",
-        "xds": 64,
+        "xds": 80,
         "yds": 128,
         "region": [416, 496, 16, 16]
       },
       {
         "name": "BigWindow",
-        "xds": 80,
+        "xds": 96,
         "yds": 128,
         "region": [432, 496, 16, 16]
       },
-      { "name": "Pillar", "xds": 96, "yds": 128, "region": [320, 352, 16, 16] },
-      { "name": "Wall", "xds": 112, "yds": 128, "region": [336, 336, 16, 16] },
+      {
+        "name": "Pillar",
+        "xds": 112,
+        "yds": 128,
+        "region": [320, 352, 16, 16]
+      },
       { "name": "Wall", "xds": 128, "yds": 128, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 144, "yds": 128, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 160, "yds": 128, "region": [336, 336, 16, 16] },
       { "name": "Wall", "xds": 176, "yds": 128, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 192, "yds": 128, "region": [336, 336, 16, 16] },
       {
         "name": "Pillar",
-        "xds": 208,
+        "xds": 192,
         "yds": 128,
         "region": [320, 352, 16, 16]
       },
       {
         "name": "BigWindow",
-        "xds": 224,
+        "xds": 208,
         "yds": 128,
         "region": [400, 496, 16, 16]
+      },
+      {
+        "name": "BigWindow",
+        "xds": 224,
+        "yds": 128,
+        "region": [416, 496, 16, 16]
       },
       {
         "name": "BigWindow",
         "xds": 240,
         "yds": 128,
-        "region": [416, 496, 16, 16]
+        "region": [432, 496, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "VPillar",
         "xds": 256,
         "yds": 128,
-        "region": [432, 496, 16, 16]
+        "region": [320, 304, 16, 16]
       },
-      { "name": "Wall", "xds": 272, "yds": 128, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 288, "yds": 128, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 304, "yds": 128, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 320, "yds": 128, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 336, "yds": 128, "region": [336, 336, 16, 16] },
       {
-        "name": "BigWindow",
+        "name": "VPillar",
+        "xds": 272,
+        "yds": 128,
+        "region": [336, 304, 16, 16]
+      },
+      {
+        "name": "VPillar",
+        "xds": 352,
+        "yds": 128,
+        "region": [320, 304, 16, 16]
+      },
+      {
+        "name": "VPillar",
         "xds": 368,
         "yds": 128,
-        "region": [400, 496, 16, 16]
+        "region": [336, 304, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 384,
         "yds": 128,
-        "region": [416, 496, 16, 16]
+        "region": [448, 496, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 400,
         "yds": 128,
-        "region": [432, 496, 16, 16]
+        "region": [480, 496, 16, 16]
       },
       {
         "name": "VPillar",
@@ -1186,10 +1270,30 @@
         "yds": 128,
         "region": [336, 304, 16, 16]
       },
-      { "name": "Wall", "xds": 448, "yds": 128, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 464, "yds": 128, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 480, "yds": 128, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 496, "yds": 128, "region": [336, 336, 16, 16] },
+      {
+        "name": "WallWindow",
+        "xds": 448,
+        "yds": 128,
+        "region": [448, 496, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 464,
+        "yds": 128,
+        "region": [464, 496, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 480,
+        "yds": 128,
+        "region": [464, 496, 16, 16]
+      },
+      {
+        "name": "WallWindow",
+        "xds": 496,
+        "yds": 128,
+        "region": [480, 496, 16, 16]
+      },
       {
         "name": "VPillar",
         "xds": 512,
@@ -1203,115 +1307,46 @@
         "region": [336, 304, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 544,
         "yds": 128,
-        "region": [400, 496, 16, 16]
+        "region": [448, 496, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "WallWindow",
         "xds": 560,
         "yds": 128,
-        "region": [416, 496, 16, 16]
+        "region": [480, 496, 16, 16]
       },
       {
-        "name": "BigWindow",
+        "name": "VPillar",
         "xds": 576,
         "yds": 128,
-        "region": [432, 496, 16, 16]
+        "region": [320, 304, 16, 16]
+      },
+      {
+        "name": "VPillar",
+        "xds": 592,
+        "yds": 128,
+        "region": [336, 304, 16, 16]
       },
       {
         "name": "Pillar",
-        "xds": 592,
+        "xds": 608,
         "yds": 128,
         "region": [320, 352, 16, 16]
       },
-      { "name": "Wall", "xds": 608, "yds": 128, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 624, "yds": 128, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 0, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 16, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 32, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 48, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 64, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 80, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 96, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 112, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 128, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 144, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 160, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 176, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 192, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 208, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 224, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 240, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 256, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 272, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 288, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 304, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 320, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 336, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 352, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 368, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 384, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 400, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 416, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 432, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 448, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 464, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 480, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 496, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 512, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 528, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 544, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 560, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 576, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 592, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 608, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 624, "yds": 144, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 0, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 16, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 32, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 48, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 64, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 80, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 96, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 112, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 128, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 144, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 160, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 176, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 192, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 208, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 224, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 240, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 256, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 272, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 288, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 304, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 320, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 336, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 352, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 368, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 384, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 400, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 416, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 432, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 448, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 464, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 480, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 496, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 512, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 528, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 544, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 560, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 576, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 592, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 608, "yds": 160, "region": [336, 336, 16, 16] },
-      { "name": "Wall", "xds": 624, "yds": 160, "region": [336, 336, 16, 16] }
+      { "name": "Wall", "xds": 624, "yds": 128, "region": [336, 336, 16, 16] }
     ],
     [
       {
         "name": "BigPillarTop",
+        "xds": 352,
+        "yds": 0,
+        "region": [432, 304, 32, 32]
+      },
+      {
+        "name": "BigPillarTop",
         "xds": 416,
         "yds": 0,
         "region": [432, 304, 32, 32]
@@ -1323,6 +1358,18 @@
         "region": [432, 304, 32, 32]
       },
       {
+        "name": "BigPillarTop",
+        "xds": 576,
+        "yds": 0,
+        "region": [432, 304, 32, 32]
+      },
+      {
+        "name": "BigPillarMid",
+        "xds": 352,
+        "yds": 32,
+        "region": [432, 336, 32, 16]
+      },
+      {
         "name": "BigPillarMid",
         "xds": 416,
         "yds": 32,
@@ -1332,6 +1379,18 @@
         "name": "BigPillarMid",
         "xds": 512,
         "yds": 32,
+        "region": [432, 336, 32, 16]
+      },
+      {
+        "name": "BigPillarMid",
+        "xds": 576,
+        "yds": 32,
+        "region": [432, 336, 32, 16]
+      },
+      {
+        "name": "BigPillarMid",
+        "xds": 352,
+        "yds": 48,
         "region": [432, 336, 32, 16]
       },
       {
@@ -1348,6 +1407,18 @@
       },
       {
         "name": "BigPillarMid",
+        "xds": 576,
+        "yds": 48,
+        "region": [432, 336, 32, 16]
+      },
+      {
+        "name": "BigPillarMid",
+        "xds": 352,
+        "yds": 64,
+        "region": [432, 336, 32, 16]
+      },
+      {
+        "name": "BigPillarMid",
         "xds": 416,
         "yds": 64,
         "region": [432, 336, 32, 16]
@@ -1356,6 +1427,18 @@
         "name": "BigPillarMid",
         "xds": 512,
         "yds": 64,
+        "region": [432, 336, 32, 16]
+      },
+      {
+        "name": "BigPillarMid",
+        "xds": 576,
+        "yds": 64,
+        "region": [432, 336, 32, 16]
+      },
+      {
+        "name": "BigPillarMid",
+        "xds": 352,
+        "yds": 80,
         "region": [432, 336, 32, 16]
       },
       {
@@ -1372,6 +1455,18 @@
       },
       {
         "name": "BigPillarMid",
+        "xds": 576,
+        "yds": 80,
+        "region": [432, 336, 32, 16]
+      },
+      {
+        "name": "BigPillarMid",
+        "xds": 352,
+        "yds": 96,
+        "region": [432, 336, 32, 16]
+      },
+      {
+        "name": "BigPillarMid",
         "xds": 416,
         "yds": 96,
         "region": [432, 336, 32, 16]
@@ -1380,6 +1475,18 @@
         "name": "BigPillarMid",
         "xds": 512,
         "yds": 96,
+        "region": [432, 336, 32, 16]
+      },
+      {
+        "name": "BigPillarMid",
+        "xds": 576,
+        "yds": 96,
+        "region": [432, 336, 32, 16]
+      },
+      {
+        "name": "BigPillarMid",
+        "xds": 352,
+        "yds": 112,
         "region": [432, 336, 32, 16]
       },
       {
@@ -1393,6 +1500,18 @@
         "xds": 512,
         "yds": 112,
         "region": [432, 336, 32, 16]
+      },
+      {
+        "name": "BigPillarMid",
+        "xds": 576,
+        "yds": 112,
+        "region": [432, 336, 32, 16]
+      },
+      {
+        "name": "BigPillarBot",
+        "xds": 352,
+        "yds": 128,
+        "region": [432, 352, 32, 16]
       },
       {
         "name": "BigPillarBot",
@@ -1403,6 +1522,12 @@
       {
         "name": "BigPillarBot",
         "xds": 512,
+        "yds": 128,
+        "region": [432, 352, 32, 16]
+      },
+      {
+        "name": "BigPillarBot",
+        "xds": 576,
         "yds": 128,
         "region": [432, 352, 32, 16]
       }
@@ -1410,26 +1535,26 @@
     [
       {
         "name": "CurtainLeft",
-        "xds": 48,
-        "yds": 80,
+        "xds": 64,
+        "yds": 64,
         "region": [432, 512, 32, 80]
       },
       {
         "name": "CurtainRight",
-        "xds": 64,
-        "yds": 80,
+        "xds": 80,
+        "yds": 64,
         "region": [464, 512, 32, 80]
       },
       {
         "name": "CurtainLeft",
-        "xds": 224,
-        "yds": 80,
+        "xds": 208,
+        "yds": 64,
         "region": [432, 512, 32, 80]
       },
       {
         "name": "CurtainRight",
-        "xds": 240,
-        "yds": 80,
+        "xds": 224,
+        "yds": 64,
         "region": [464, 512, 32, 80]
       }
     ],
@@ -1450,17 +1575,31 @@
       }
     ],
     [
-      { "name": "Fire", "xds": 448, "yds": 96, "region": [336, 400, 16, 16] },
-      { "name": "Fire", "xds": 496, "yds": 96, "region": [336, 400, 16, 16] },
+      { "name": "Fire", "xds": 112, "yds": 96, "region": [336, 400, 16, 16] },
+      { "name": "Fire", "xds": 192, "yds": 96, "region": [336, 400, 16, 16] },
+      { "name": "Fire", "xds": 432, "yds": 96, "region": [336, 400, 16, 16] },
+      { "name": "Fire", "xds": 512, "yds": 96, "region": [336, 400, 16, 16] },
       {
         "name": "ThinScone",
-        "xds": 448,
+        "xds": 112,
         "yds": 112,
         "region": [416, 368, 16, 32]
       },
       {
         "name": "ThinScone",
-        "xds": 496,
+        "xds": 192,
+        "yds": 112,
+        "region": [416, 368, 16, 32]
+      },
+      {
+        "name": "ThinScone",
+        "xds": 432,
+        "yds": 112,
+        "region": [416, 368, 16, 32]
+      },
+      {
+        "name": "ThinScone",
+        "xds": 512,
         "yds": 112,
         "region": [416, 368, 16, 32]
       }
@@ -1707,6 +1846,14 @@
     0,
     { "name": "Floor", "xds": 608, "yds": 80, "region": [320, 32, 16, 16] },
     { "name": "Floor", "xds": 624, "yds": 80, "region": [352, 32, 16, 16] },
+    {
+      "name": "Door",
+      "id": "Left",
+      "target": "balcony",
+      "xds": 0,
+      "yds": 96,
+      "region": [320, 608, 16, 16]
+    },
     0,
     0,
     0,
@@ -1745,6 +1892,22 @@
     0,
     0,
     0,
+    {
+      "name": "Door",
+      "id": "Right",
+      "target": "hallway",
+      "xds": 624,
+      "yds": 96,
+      "region": [336, 608, 16, 16]
+    },
+    {
+      "name": "Door",
+      "id": "Left",
+      "target": "balcony",
+      "xds": 0,
+      "yds": 112,
+      "region": [320, 608, 16, 16]
+    },
     0,
     0,
     0,
@@ -1763,12 +1926,10 @@
     0,
     0,
     0,
+    { "name": "Floor", "xds": 304, "yds": 112, "region": [320, 0, 16, 16] },
+    { "name": "Floor", "xds": 320, "yds": 112, "region": [352, 0, 16, 16] },
     0,
     0,
-    { "name": "Floor", "xds": 288, "yds": 112, "region": [320, 0, 16, 16] },
-    { "name": "Floor", "xds": 304, "yds": 112, "region": [336, 0, 16, 16] },
-    { "name": "Floor", "xds": 320, "yds": 112, "region": [336, 0, 16, 16] },
-    { "name": "Floor", "xds": 336, "yds": 112, "region": [352, 0, 16, 16] },
     0,
     0,
     0,
@@ -1785,6 +1946,22 @@
     0,
     0,
     0,
+    {
+      "name": "Door",
+      "id": "Right",
+      "target": "hallway",
+      "xds": 624,
+      "yds": 112,
+      "region": [336, 608, 16, 16]
+    },
+    {
+      "name": "Door",
+      "id": "Left",
+      "target": "balcony",
+      "xds": 0,
+      "yds": 128,
+      "region": [320, 608, 16, 16]
+    },
     0,
     0,
     0,
@@ -1802,14 +1979,12 @@
     0,
     0,
     0,
+    { "name": "Floor", "xds": 288, "yds": 128, "region": [320, 0, 16, 16] },
+    { "name": "Floor", "xds": 304, "yds": 128, "region": [416, 32, 16, 16] },
+    { "name": "Floor", "xds": 320, "yds": 128, "region": [400, 32, 16, 16] },
+    { "name": "Floor", "xds": 336, "yds": 128, "region": [352, 0, 16, 16] },
     0,
     0,
-    { "name": "Floor", "xds": 272, "yds": 128, "region": [320, 0, 16, 16] },
-    { "name": "Floor", "xds": 288, "yds": 128, "region": [416, 32, 16, 16] },
-    { "name": "Floor", "xds": 304, "yds": 128, "region": [336, 16, 16, 16] },
-    { "name": "Floor", "xds": 320, "yds": 128, "region": [336, 16, 16, 16] },
-    { "name": "Floor", "xds": 336, "yds": 128, "region": [400, 32, 16, 16] },
-    { "name": "Floor", "xds": 352, "yds": 128, "region": [352, 0, 16, 16] },
     0,
     0,
     0,
@@ -1825,8 +2000,14 @@
     0,
     0,
     0,
-    0,
-    0,
+    {
+      "name": "Door",
+      "id": "Right",
+      "target": "hallway",
+      "xds": 624,
+      "yds": 128,
+      "region": [336, 608, 16, 16]
+    },
     { "name": "Floor", "xds": 0, "yds": 144, "region": [320, 0, 16, 16] },
     { "name": "Floor", "xds": 16, "yds": 144, "region": [336, 0, 16, 16] },
     { "name": "Floor", "xds": 32, "yds": 144, "region": [336, 0, 16, 16] },
@@ -1844,12 +2025,12 @@
     { "name": "Floor", "xds": 224, "yds": 144, "region": [336, 0, 16, 16] },
     { "name": "Floor", "xds": 240, "yds": 144, "region": [336, 0, 16, 16] },
     { "name": "Floor", "xds": 256, "yds": 144, "region": [336, 0, 16, 16] },
-    { "name": "Floor", "xds": 272, "yds": 144, "region": [416, 32, 16, 16] },
-    { "name": "Floor", "xds": 288, "yds": 144, "region": [336, 16, 16, 16] },
+    { "name": "Floor", "xds": 272, "yds": 144, "region": [336, 0, 16, 16] },
+    { "name": "Floor", "xds": 288, "yds": 144, "region": [416, 32, 16, 16] },
     { "name": "Floor", "xds": 304, "yds": 144, "region": [336, 16, 16, 16] },
     { "name": "Floor", "xds": 320, "yds": 144, "region": [336, 16, 16, 16] },
-    { "name": "Floor", "xds": 336, "yds": 144, "region": [336, 16, 16, 16] },
-    { "name": "Floor", "xds": 352, "yds": 144, "region": [400, 32, 16, 16] },
+    { "name": "Floor", "xds": 336, "yds": 144, "region": [400, 32, 16, 16] },
+    { "name": "Floor", "xds": 352, "yds": 144, "region": [336, 0, 16, 16] },
     { "name": "Floor", "xds": 368, "yds": 144, "region": [336, 0, 16, 16] },
     { "name": "Floor", "xds": 384, "yds": 144, "region": [336, 0, 16, 16] },
     { "name": "Floor", "xds": 400, "yds": 144, "region": [336, 0, 16, 16] },
@@ -1910,14 +2091,10 @@
   ],
   "FG_LAYERS": [
     [
-      { "name": "Rail", "xds": 288, "yds": 96, "region": [320, 368, 16, 16] },
-      { "name": "Rail", "xds": 304, "yds": 96, "region": [336, 368, 16, 16] },
-      { "name": "Rail", "xds": 320, "yds": 96, "region": [336, 368, 16, 16] },
-      { "name": "Rail", "xds": 336, "yds": 96, "region": [352, 368, 16, 16] },
-      { "name": "Rail", "xds": 0, "yds": 128, "region": [320, 368, 16, 16] },
-      { "name": "Rail", "xds": 16, "yds": 128, "region": [352, 368, 16, 16] },
-      { "name": "Rail", "xds": 608, "yds": 128, "region": [320, 368, 16, 16] },
-      { "name": "Rail", "xds": 624, "yds": 128, "region": [352, 368, 16, 16] }
+      { "name": "Rail", "xds": 256, "yds": 128, "region": [320, 368, 16, 16] },
+      { "name": "Rail", "xds": 272, "yds": 128, "region": [352, 368, 16, 16] },
+      { "name": "Rail", "xds": 352, "yds": 128, "region": [320, 368, 16, 16] },
+      { "name": "Rail", "xds": 368, "yds": 128, "region": [352, 368, 16, 16] }
     ]
   ],
   "ROOM_RECT": [0, 0, 640, 176],

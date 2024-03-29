@@ -17,7 +17,6 @@ class Game:
         # Debug
         self.is_development = True
         self.is_debug = False
-        self.debug_frame_counter = 0
 
         # Default values if there are no save settings data
         self.resolution = 4
@@ -28,6 +27,7 @@ class Game:
             "right": pg.K_RIGHT,
             "enter": pg.K_RETURN,
             "pause": pg.K_ESCAPE,
+            "jump": pg.K_SPACE,
         }
 
         # Read save settings data if exists and apply data
@@ -110,9 +110,8 @@ while 1:
 
     # Debug
     if game.is_debug:
-        game.debug_frame_counter += 1
         FONT.render_to(
-            NATIVE_SURF, (0, 0), f'{game.debug_frame_counter}', "white")
+            NATIVE_SURF, (0, 0), f'{int(CLOCK.get_fps())}', "white")
 
     # region Native to window and update window
     pg.transform.scale(NATIVE_SURF, (game.window_w,

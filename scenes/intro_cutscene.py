@@ -9,9 +9,6 @@ class IntroCutscene:
         # Text box
         self.text_box = pg.Rect(0, 0, NATIVE_W, (FONT_H * 5) + (2 * TILE_S))
 
-        # Intro cutscene background init
-        self.intro_cutscene_bg = pg.Surface((NATIVE_W, NATIVE_H))
-
         # Curtain init
         self.curtain = pg.Surface((NATIVE_W, NATIVE_H))
         self.curtain.fill("black")
@@ -216,9 +213,6 @@ class IntroCutscene:
                 self.game.set_scene("World")
 
     def draw(self, NATIVE_SURF):
-        # Draw intro cutscene background
-        NATIVE_SURF.blit(self.intro_cutscene_bg, (0, 0))
-
         # Draw container
         pg.draw.rect(NATIVE_SURF, "white", self.text_box, 1)
 
